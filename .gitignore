@@ -1,0 +1,20 @@
+# envs
+.venv
+env
+venv/
+
+# caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+
+# manim artifacts
+# Ignore everything in media
+**/media/**
+!**/media/jupyter/
+!**/media/jupyter/**
