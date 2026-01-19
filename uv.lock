@@ -257,6 +257,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "manim" },
     { name = "manim-devanagari" },
+    { name = "manimpango" },
     { name = "numpy" },
     { name = "scipy" },
 ]
@@ -265,6 +266,7 @@ dependencies = [
 requires-dist = [
     { name = "manim", specifier = ">=0.19.1" },
     { name = "manim-devanagari", specifier = ">=0.2.2" },
+    { name = "manimpango", specifier = ">=0.6.1" },
     { name = "numpy", specifier = ">=2.3.5" },
     { name = "scipy", specifier = ">=1.16.3" },
 ]
